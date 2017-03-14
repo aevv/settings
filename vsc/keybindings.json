@@ -1,0 +1,28 @@
+// Place your key bindings in this file to overwrite the defaults
+[{
+    "key": "ctrl+alt+c",
+    "command": "extension.cmd"
+}, {
+    "key": "ctrl+-",
+    "command": "workbench.action.navigateBack"
+}, {
+    "key": "ctrl+shift+-",
+    "command": "workbench.action.navigateForward"
+}, {
+    "key": "shift+alt+c",
+    "command": "workbench.action.files.newFile"
+}, {
+    "key": "ctrl+shift+s",
+    "command": "workbench.action.files.saveAll"
+}, {
+    "key": "ctrl+shift+down",
+    "command": "editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+}, {
+    "key": "ctrl+shift+up",
+    "command": "editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+}, {
+    "key": "alt+shift+l",
+    "command": "workbench.view.explorer"
+}]
